@@ -10,17 +10,17 @@ https://raw.githubusercontent.com/Garve/datasets/4576d323bf2b66c906d5130d686245a
 ### Dataset Overview
 The dataset contains the following fields for a period of 200 weeks from 2018 to 2021
 
-![image](https://github.com/anuragmark/MarketingMixModeling/assets/135703523/b7909926-50d2-478b-ae6c-978e226ab4ec)
+<img src = "images/Data Sample.png">
 
 
 ### Visualizing the Data
 
 TV spend has the highest correlation with the total sales
-![image](https://github.com/anuragmark/MarketingMixModeling/assets/135703523/2a423e51-11cd-4b80-94df-5b8dd7a17c1a)
+<img src = "images/correlation.png">
 
 
 Plotting the spend and sales across the period, show a similar trend for TV spend and the total sales
-![image](https://github.com/anuragmark/MarketingMixModeling/assets/135703523/2b485e6a-a175-4de6-9b3d-b9bd0ea44159)
+<img src = "images/Spend vs Sales .png">
 
 
 ### a. Basic Model
@@ -36,7 +36,7 @@ mean absolute percentage error: 0.11
 r2: 0.78
 
 #### Plots
-![image](https://github.com/anuragmark/MarketingMixModeling/assets/135703523/e075aff0-fcbb-404b-aa26-ddbcfa10c61a)
+<img src = "images/Output - Model1.png">
 
 
 
@@ -97,7 +97,7 @@ Test Data
 
 The optimized model gives a much strong prediction with a good fit over the time period. The addition of Adstock and Diminishing returns improved the model accuracy and helped better define the relationship between marketing channels and total sales.
 
-![image](https://github.com/anuragmark/MarketingMixModeling/assets/135703523/95450988-5947-49c6-816f-2beed81babeb)
+<img src = "images/Output - Model2.png">
 
 
 
