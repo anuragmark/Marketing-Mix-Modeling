@@ -45,7 +45,15 @@ r2: 0.78
 While the simple model provides a foundational understanding, it's vital to consider real-world complexities:
 
 AdStock Effect: The impact of marketing activity can span over an extended period, rather than being immediate.
+``` 
+adstock(t) = adstock(t-1)*beta + spend(t)
+```
+
 Diminishing Returns: There's a threshold beyond which pouring more money into marketing might not yield proportional returns.
+```
+dim_returns = adstock(t)^alpha 
+```
+
 To address these complexities, we incorporated AdStock transformations and diminishing return factors into our model.
 #### Adding the features
 
